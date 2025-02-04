@@ -5,28 +5,49 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vwg0xqAuFkWLNpj44O0B-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="530" height="530" as="geometry" />
+          <mxGeometry x="120" y="70" width="530" height="530" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="400" height="120" as="geometry" />
+          <mxGeometry x="150" y="70" width="530" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="240" width="530" height="120" as="geometry" />
+          <mxGeometry x="150" y="190" width="530" height="170" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="360" width="530" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-5" value="Servers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-5" value="Physical H/W&lt;div&gt;Servers(Dell PowerEdge, HPE&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Proliant),PDUs,CPUs,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Racks,RAM,etc.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-6" value="Networking Components" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-6" value="Networking&lt;div&gt;FireWalls(CISCO ASA),&lt;/div&gt;&lt;div&gt;Routers,Switches,Load Balancers(Citrix,F5),NICs,etc&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-7" value="Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-7" value="Storage&lt;div&gt;SAN(EMC,NetMap),&lt;/div&gt;&lt;div&gt;NAS(QNAP,Synology),&lt;/div&gt;&lt;div&gt;DAS, Hard Drives,HBAs,&lt;/div&gt;&lt;div&gt;Raid Controllers,etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-8" value="Virtualization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-8" value="Virtualization&lt;div&gt;Hypervisors(VMware VSphere, Microsoft Hyper V, KVMs), V Switches,V NICs, V Disks,etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-9" value="Operating Systems&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Windows Server, Linux Distributions(Ubuntu, CentOS), MacOS server,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Kernel, File Systems, etc.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="225" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-10" value="Middleware&lt;div&gt;WebServers(Apache Tomcat,Nginx), Application Servers(JBoss, WebSphere),&lt;/div&gt;&lt;div&gt;Message Queues,Config Files,&lt;/div&gt;&lt;div&gt;Libraries,etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="225" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-11" value="Runtime&lt;div&gt;JRE, .NET Frame Work,&lt;/div&gt;&lt;div&gt;Python Interpreter,&lt;/div&gt;&lt;div&gt;Libraries, etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="225" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vwg0xqAuFkWLNpj44O0B-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="80" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vwg0xqAuFkWLNpj44O0B-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
