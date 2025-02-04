@@ -1,53 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="xQfCdXBaoYpENJeM7S9G">
-    <mxGraphModel dx="1050" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="530" height="530" as="geometry" />
-        </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="530" height="120" as="geometry" />
+          <mxGeometry x="150" y="70" width="670" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="150" y="190" width="530" height="170" as="geometry" />
+          <mxGeometry x="150" y="190" width="670" height="170" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="150" y="360" width="530" height="240" as="geometry" />
+          <mxGeometry x="150" y="360" width="670" height="180" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-5" value="&lt;b&gt;&lt;u&gt;Physical H/W&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Servers(Dell PowerEdge, HPE&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Proliant),PDUs,CPUs,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Racks,RAM,etc.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="380" width="160" height="100" as="geometry" />
+          <mxGeometry x="160" y="400" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-6" value="&lt;b&gt;&lt;u&gt;Networking&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;div&gt;FireWalls(CISCO ASA),&lt;/div&gt;&lt;div&gt;V Routers,Switches,Load Balancers(Citrix,F5),NICs,&lt;/div&gt;&lt;div&gt;AWS VPC, GCP VPC,etc.&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="380" width="170" height="100" as="geometry" />
+          <mxGeometry x="320" y="400" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-7" value="&lt;b&gt;&lt;u&gt;Storage&lt;/u&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;SAN(EMC,NetMap),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;NAS(QNAP,Synology),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;V Disks,Block/Obj Storage&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(AWS EBS,AWS S3,etc.)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="380" width="160" height="100" as="geometry" />
+          <mxGeometry x="490" y="400" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-8" value="&lt;b style=&quot;&quot;&gt;&lt;u&gt;Virtualization&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Hypervisors(VMware VSphere, Microsoft Hyper V, KVMs),N/W ACLs, Virtual Networks(VPCs, VNETs,etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="490" width="160" height="100" as="geometry" />
+          <mxGeometry x="650" y="400" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-9" value="&lt;b&gt;&lt;u&gt;Operating Systems&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Windows Server, Linux Distributions(Ubuntu, CentOS), MacOS server,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Kernel, File Systems, etc.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="160" height="100" as="geometry" />
+          <mxGeometry x="160" y="225" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-10" value="&lt;b&gt;&lt;u&gt;Middleware&lt;/u&gt;&lt;/b&gt;&lt;div&gt;WebServers(Apache Tomcat,Nginx), Application Servers(JBoss, WebSphere),&lt;/div&gt;&lt;div&gt;Message Queues,Config Files,&lt;/div&gt;&lt;div&gt;Libraries,etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="200" width="170" height="100" as="geometry" />
+          <mxGeometry x="315" y="225" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-11" value="&lt;b&gt;&lt;u&gt;Runtime Environment&lt;/u&gt;&lt;/b&gt;&lt;div&gt;JRE, .NET Frame Work,&lt;/div&gt;&lt;div&gt;Python Interpreter,&lt;/div&gt;&lt;div&gt;Libraries, etc.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="200" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vwg0xqAuFkWLNpj44O0B-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="190" as="sourcePoint" />
-            <mxPoint x="80" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwg0xqAuFkWLNpj44O0B-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="360" as="sourcePoint" />
-            <mxPoint x="150" y="360" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="490" y="225" width="145" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-20" value="&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(234, 107, 102));&quot;&gt;I&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(234, 107, 102));&quot;&gt;A&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(234, 107, 102));&quot;&gt;A&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(234, 107, 102));&quot;&gt;S&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="420" width="70" height="110" as="geometry" />
@@ -59,10 +44,10 @@
           <mxGeometry x="100" y="120" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-23" value="&lt;b&gt;Ready-To-Use Software Applications&lt;/b&gt;&lt;div&gt;(Compass,Salesforce,GMail,DropBox,Microsoft 365,etc)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="230" y="87.5" width="350" height="85" as="geometry" />
+          <mxGeometry x="310" y="87.5" width="350" height="85" as="geometry" />
         </mxCell>
         <mxCell id="vwg0xqAuFkWLNpj44O0B-24" value="&lt;b&gt;&lt;u&gt;Managed Data Services&lt;/u&gt;&lt;/b&gt;: Database servers(Cloud SQL,Azure SQL,RDS), DW(BigQuery, RedShift),Data Lakes(S3),ETL(Aws Glue),etc." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="310" width="470" height="40" as="geometry" />
+          <mxGeometry x="640" y="225" width="170" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
